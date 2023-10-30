@@ -1,7 +1,7 @@
 package exercitiul2;
 
 public class Vers {
-    private String vers;
+    private final String vers;
     Vers(String v){
         this.vers=v;
     }
@@ -19,5 +19,10 @@ public class Vers {
             }
         }
         return count;
+    }
+
+    public String getVers()
+    {
+        return vers;
     }
 }
